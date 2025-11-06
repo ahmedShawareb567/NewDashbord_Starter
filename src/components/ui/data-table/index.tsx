@@ -10,11 +10,10 @@ import {
     getSortedRowModel,
     useReactTable,
 } from "@tanstack/react-table"
-import { useSetAtom } from "jotai"
 import { parseAsInteger } from "nuqs"
 import { useQueryStates } from "nuqs"
 
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 import { DEFAULT_PAGE_SIZE } from "@/lib/constants"
 import { cn } from "@/lib/utils"
